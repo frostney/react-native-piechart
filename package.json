@@ -1,0 +1,19 @@
+{
+  "name": "react-native-piechart",
+  "version": "1.0.0",
+  "description": "A <PieChart /> component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frostney/react-native-piechart.git"
+  },
+  "author": "",
+  "license": "Public domain",
+  "bugs": {
+    "url": "https://github.com/frostney/react-native-piechart/issues"
+  },
+  "homepage": "https://github.com/frostney/react-native-piechart"
+}

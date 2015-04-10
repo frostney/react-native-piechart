@@ -12,7 +12,7 @@ var {
   View,
 } = React;
 
-var PieChart = React.createClass({
+var PieChartExample = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('PieChart', () => PieChart);
+AppRegistry.registerComponent('PieChartExample', () => PieChartExample);

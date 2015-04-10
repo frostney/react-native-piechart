@@ -1,13 +1,13 @@
 //
-//  RNPieChart.h
-//  PieChart
+//  RNPieChartManager.m
+//  PieChartExample
 //
 //  Created by Johannes Stein on 10/04/15.
 //  Copyright (c) 2015 Facebook. All rights reserved.
 //
 
-#import "RCTView.h"
+#import "RNPieChartManager.h"
 
-@interface RNPieChart : RCTView
+@implementation RNPieChartManager
 
 @end

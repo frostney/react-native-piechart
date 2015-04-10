@@ -11,6 +11,9 @@ var flattenStyle = require('flattenStyle');
 var merge = require('merge');
 
 var PieChart = React.createClass({
+  propTypes: {
+    data: PropTypes.array
+  },
   mixins: [NativeMethodsMixin],
   viewConfig: {
     uiViewClassName: 'UIView',

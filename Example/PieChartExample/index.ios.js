@@ -12,6 +12,8 @@ var {
   View,
 } = React;
 
+var PieChart = require('react-native-piechart');
+
 var PieChartExample = React.createClass({
   render: function() {
     return (
@@ -22,6 +24,7 @@ var PieChartExample = React.createClass({
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
+        <PieChart style={styles.chart} />
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
           Cmd+Control+Z for dev menu
@@ -42,6 +45,11 @@ var styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+  },
+  chart: {
+    margin: 10,
+    height: 200,
+    width: 200
   },
   instructions: {
     textAlign: 'center',

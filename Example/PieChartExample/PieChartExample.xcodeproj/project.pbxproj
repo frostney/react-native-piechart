@@ -21,8 +21,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		3BFEF04A1AD86B0300FF8983 /* RNPieChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFEF0491AD86B0300FF8983 /* RNPieChartManager.m */; };
-		3BFEF04D1AD86B1C00FF8983 /* RNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFEF04C1AD86B1C00FF8983 /* RNPieChart.m */; };
+		3BFE9D301AFD8EB2005C939D /* libRNPieChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFE9D2F1AFD8DB2005C939D /* libRNPieChart.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +82,13 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
+		3BFE9D2E1AFD8DB2005C939D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BFE9D201AFD8DB1005C939D /* RNPieChart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNPieChart;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -116,10 +122,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		3BFEF0481AD86B0300FF8983 /* RNPieChartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPieChartManager.h; path = iOS/RNPieChartManager.h; sourceTree = "<group>"; };
-		3BFEF0491AD86B0300FF8983 /* RNPieChartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPieChartManager.m; path = iOS/RNPieChartManager.m; sourceTree = "<group>"; };
-		3BFEF04B1AD86B1C00FF8983 /* RNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPieChart.h; path = iOS/RNPieChart.h; sourceTree = "<group>"; };
-		3BFEF04C1AD86B1C00FF8983 /* RNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPieChart.m; path = iOS/RNPieChart.m; sourceTree = "<group>"; };
+		3BFE9D201AFD8DB1005C939D /* RNPieChart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPieChart.xcodeproj; path = ../../RNPieChart.xcodeproj; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFE9D301AFD8EB2005C939D /* libRNPieChart.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00481BE81AC0C86700671115 /* libRCTWebSocketDebugger.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -211,10 +215,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				3BFEF0481AD86B0300FF8983 /* RNPieChartManager.h */,
-				3BFEF0491AD86B0300FF8983 /* RNPieChartManager.m */,
-				3BFEF04B1AD86B1C00FF8983 /* RNPieChart.h */,
-				3BFEF04C1AD86B1C00FF8983 /* RNPieChart.m */,
 			);
 			name = PieChartExample;
 			sourceTree = "<group>";
@@ -223,6 +223,14 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BFE9D211AFD8DB1005C939D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE9D2F1AFD8DB2005C939D /* libRNPieChart.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3BFE9D201AFD8DB1005C939D /* RNPieChart.xcodeproj */,
 				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
@@ -360,6 +369,10 @@
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
+				{
+					ProductGroup = 3BFE9D211AFD8DB1005C939D /* Products */;
+					ProjectRef = 3BFE9D201AFD8DB1005C939D /* RNPieChart.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -425,6 +438,13 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		3BFE9D2F1AFD8DB2005C939D /* libRNPieChart.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNPieChart.a;
+			remoteRef = 3BFE9D2E1AFD8DB2005C939D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -459,10 +479,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFEF04A1AD86B0300FF8983 /* RNPieChartManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				3BFEF04D1AD86B1C00FF8983 /* RNPieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

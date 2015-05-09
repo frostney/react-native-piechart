@@ -1,8 +1,8 @@
 {
   "name": "react-native-piechart",
-  "version": "1.0.0",
+  "version": "0.1.0-alpha1",
   "description": "A <PieChart /> component for React Native",
-  "main": "index.js",
+  "main": "RNPieChart.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

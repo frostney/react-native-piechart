@@ -1,3 +1,7 @@
+/**
+ * @providesModule RNPieChart
+ * @flow
+ */
 'use strict';
 
 var React = require('React');

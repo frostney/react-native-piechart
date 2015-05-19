@@ -1,6 +1,6 @@
 {
   "name": "react-native-piechart",
-  "version": "0.1.0-alpha1",
+  "version": "0.1.0-alpha2",
   "description": "A <PieChart /> component for React Native",
   "main": "RNPieChart.ios.js",
   "scripts": {
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "https://github.com/frostney/react-native-piechart.git"
   },
-  "author": "",
+  "author": "Johannes Stein",
   "license": "Public domain",
   "bugs": {
     "url": "https://github.com/frostney/react-native-piechart/issues"
   },
+  "dependencies": {
+    "react-native": "^0.4.0"
+  },
+  "keywords": ["react-native", "react-component", "chart", "piechart"],
   "homepage": "https://github.com/frostney/react-native-piechart"
 }
